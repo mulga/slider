@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/6b7d429c30.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="button-wrapper">
+        <button onclick="showHouse()">House</button>
+        <button onclick="showAuto()">Auto</button>
+      </div>
+      <div class="main-wrapper">
+        <div class="card-wrapper">
+          <div class="card-slider left right">
+            <!-- House -->
+            <div class="card house" id="house">
+              <div class="image">
+                <img src="images/02.jpg" alt="" />
+              </div>
+              <h2>House</h2>
+              <div class="card-bottom">
+                <p>Ort: Rome</p>
+                <p>Preis: Nicht verkauftlich</p>
+              </div>
+            </div>
+
+            <!-- Auto -->
+            <div class="card auto" id="auto">
+              <div class="image">
+                <img src="images/03.jpg" alt="" />
+              </div>
+              <h2>Auto</h2>
+              <div class="card-bottom">
+                <p>Ort: Volkswagen</p>
+                <p>Preis: 25.000 Euro</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

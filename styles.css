@@ -1,0 +1,141 @@
+/* Poppins */
+
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"); */
+
+/* Work Sans */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700&display=swap");
+
+/* Roboto */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap'); */
+
+:root {
+  --white: #fff;
+  --black: #1c2b2d;
+  --blue: #31326f;
+  --light-blue: #005490;
+  --color-primary: #9d0191;
+  --color-sec: #db6400;
+  --grey: #eee;
+  --dark-grey: #222831;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 400ms all ease-in-out;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  /* font-family: "Open Sans", sans-serif; */
+  font-family: "Work Sans", sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+  background-color: #7f8c8d;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.container {
+  max-width: 900px;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: grid;
+  place-items: center;
+}
+
+.button-wrapper {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+button {
+  padding: 2rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  width: 250px;
+  color: var(--white);
+  background-color: var(--color-sec);
+}
+.card-wrapper {
+  /* display: flex; */
+  /* gap: 1rem; */
+  background-color: #596275;
+  padding: 2rem;
+  position: relative;
+  height: 450px;
+  width: 475px;
+  overflow: hidden;
+}
+
+.card-wrapper > * {
+  position: absolute;
+
+  /* overflow: hidden; */
+}
+
+.card {
+  /* width: inherit; */
+  background-color: #ecf0f1;
+  padding: 2rem;
+}
+
+.image {
+  height: 250px;
+  width: 100%;
+  object-position: center;
+  background-color: red;
+  margin-bottom: 2rem;
+}
+
+.card-bottom {
+  background-color: #f5cd79;
+  padding: 0.5rem;
+  margin-top: 2rem;
+}
+
+.card-slider {
+  width: 920px;
+  display: grid;
+  gap: 5rem;
+  grid-template-columns: 1fr 1fr;
+  transition: all 400ms;
+}
+
+.left {
+  position: absolute;
+  left: -465px;
+}
+
+.auto {
+  /* display: none; */
+  /* opacity: 0; */
+  /* position: absolute; */
+  /* top: 2rem; */
+  /* left: 2rem; */
+}
+
+.house {
+  /* display: none; */
+  /* opacity: 0; */
+
+  /* position: absolute; */
+  /* top: 2rem; */
+  /* right: -450px; */
+}
